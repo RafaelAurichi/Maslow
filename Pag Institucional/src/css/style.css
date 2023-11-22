@@ -1,0 +1,235 @@
+:root {
+    --cor-primaria: #070713;
+    --cor-secundaria: #7000FF;
+    --cor-terciaria: #ffff;
+    --cor-quartenario: #101020;
+}
+
+
+/* Configuraçoes do topo*/
+.bg-topo {
+    background-color: var(--cor-terciaria);
+}
+
+.logo{
+    max-width: 200px;
+    height: auto;
+    filter: brightness(0.15);
+}
+
+.nav-link{
+    color: var(--cor-primaria)!important;
+}
+
+.nav-link:hover{
+    color: var(--cor-secundaria)!important;
+    transition: all .50s ease-in-out;
+    -moz-transition: all .50s ease-in-out;
+    -webkit-transition: all .50s ease-in-out;
+}
+
+.btn-orcamento {
+    background-color: var(--cor-secundaria);
+    position: relative;
+    color: var(--cor-terciaria);    
+    z-index: 1;
+    border-radius: 30px;
+    height: 100%;
+    font-size: 17px;
+}
+
+.btn-orcamento:hover {
+    color: var(--cor-terciaria);
+    background: var(--cor-primaria);
+    border-color: var(--cor-terciaria);
+    transition: all .50s ease-in-out;
+    -moz-transition: all .50s ease-in-out;
+    -webkit-transition: all .50s ease-in-out;
+}
+
+.navbar-toggler{
+    background-color: var(--cor-secundaria);
+}
+
+
+/* Seção de Serviços */
+.bg-servicos {
+    background: var(--cor-terciaria);
+}
+
+
+/*Seção de Parceiros*/
+.bg-parceiros {
+    background-color: var(--cor-primaria);
+}
+
+.padding-parceiros {
+    padding: 2px !important;
+}
+
+
+.card{
+    filter: grayscale(1);
+    height: 200px;
+    max-width: 200px;
+}
+
+.card img{
+    height: 150px;
+}
+
+.card:hover {
+    filter: grayscale(0);
+    transform: scale(1.2);
+    z-index: 1;
+    transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+}
+
+
+/* Seção Paralax*/
+.bg-paralax {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../img/bg.jpeg') fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.fatos {
+    text-align: center;
+    color: var(--cor-primaria);
+}
+
+.fatos .icon i{
+    font-size: 50px;
+    color: var(--cor-terciaria);
+}
+
+.fatos h3{
+    font-size: 35px;
+    color: var(--cor-terciaria);
+    margin-bottom: 5px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.fatos h4 {
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--cor-terciaria);
+    letter-spacing: 1px;;
+}
+
+
+/* Configuração de Seção de Cursos */
+.tabela-preco {
+    padding: 0 0 40px 0;
+    margin: 0 auto;
+    margin-bottom: 5px;
+    text-align: center;
+    border: 1px solid #f1f1f1;
+}
+
+.tabela-preco .preco-detalhe h2{
+    font-size: 26px;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    background-color: #f1f1f1;
+    padding: 30px 0;
+}
+
+.tabela-preco .preco-detalhe span {
+    display: block;
+    font-size: 48px;
+    font-weight: 400;
+    color: var(--cor-secundaria);
+    margin-bottom: 20px;
+}
+
+.tabela-preco .preco-detalhe ul {
+    margin-bottom: 35px;
+    padding: 0 !important;
+
+}
+
+.tabela-preco .preco-detalhe ul li {
+    padding: 10px;
+    font-size: 15px;
+    border-bottom: 1px dotted #f1f1f1;
+    list-style: none;
+}
+
+.btn-preco {
+    border: 1px solid var(--cor-quartenario);
+    position: relative;
+    color: var(--cor-primaria);
+    z-index: 1;
+    border-radius: 30px;
+}
+
+.btn-preco:hover {
+    color: var(--cor-primaria);
+    background-color: var(--cor-secundaria);
+    border-color: var(--cor-secundaria);
+    transition: all .50s ease-in-out;
+    -moz-transition: all .50s ease-in-out;
+    -webkit-transition: all .50s ease-in-out;
+}
+
+
+/* Seção Rodape */
+.bg-rodape1 {
+    background-color: var(--cor-secundaria);
+
+}
+
+.bg-rodape1 ul {
+    -webkit-padding-start: 0;
+}
+
+.bg-rodape1 ul li {
+    list-style: none;
+}
+
+.underline-footer{
+    content: '';
+    border-top: 2px solid var(--cor-quartenario);
+    width: 70px;
+    display: block;
+    margin-top: 5px;
+}
+
+.bg-card-rodape {
+    background-color: var(--cor-quartenario);
+
+}
+
+.icon-banner-rodape {
+    color: var(--cor-terciaria);
+}
+
+.bg-rodape2 {
+    background-color: var(--cor-terciaria);
+
+}
+
+.logo-rodape{
+    max-width: 120px;
+    filter: brightness(0.15);
+}
+
+a.icone-social {
+    color: var(--cor-quartenario);
+}
+
+
+/* Configurações Gerais */
+.underline {
+    content: '';
+    width: 70px;
+    display: block;
+    margin-bottom: 8px;
+    margin: 0 auto;
+}

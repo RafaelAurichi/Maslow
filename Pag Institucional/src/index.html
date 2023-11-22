@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>One Page</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+</head>
+<body>
+
+    <!-- topo -->
+    <div class="container-fluid bg-topo sticky-top">
+        <header class="container">
+            <nav class="navbar navbar-dark navbar-expand-lg">
+                <a href="#" class="navbar-brand">
+                    <img src="img/logo.png" alt="logo" height="70" class="logo d-inline-block align-top">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu"
+                aria-controls="menu" aria-expanded="false" aria-label="Menu Colapso"
+                >
+                    <span class="navbar-toggler-icon text-light"></span>
+                </button>
+                <div id="menu" class="collapse navbar-collapse">
+                    <ul class="navbar-nav mx-auto text-light">
+                        <li class="nav-item">
+                            <a href="#servicos" class="nav-link font-weight-bold scroll-page">Serviços</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#parceiros" class="nav-link font-weight-bold scroll-page">Parceiros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#cursos" class="nav-link font-weight-bold scroll-page">Sobre nós</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link font-weight-bold">Contatos</a>
+                        </li>
+                    </ul>
+                    <a href="page.php" class="btn col-md-3 btn-orcamento font-weight-bold">Entrar</a>
+                </div>
+            </nav>
+        </header>
+    </div>
+
+
+    <!-- Slide show -->
+    <div class="container-fluid my-2">
+        <div id="slideshow" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#slideshow" data-slide-to="0" class="active"></li>
+                <li data-target="#slideshow" data-slide-to="1"></li>
+                <li data-target="#slideshow" data-slide-to="2"></li>
+            </ol>
+
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <a href="">
+                        <img src="img/banner1.png" alt="Primeiro Slide" class="d-none d-sm-block w-100">
+                    </a>
+                    <a href="">
+                        <img src="img/banner1-mobile.png" alt="Primeiro Slide" class="d-block d-sm-none w-100">
+                    </a>
+                </div>
+                <div class="carousel-item">
+                    <a href="">
+                        <img src="img/banner2.png" alt="Segundo Slide" class="d-none d-sm-block w-100">
+                    </a>
+                    <a href="">
+                        <img src="img/banner2-mobile.png" alt="Segundo Slide" class="d-block d-sm-none w-100">
+                    </a>
+                </div>
+                <div class="carousel-item">
+                    <a href="">
+                        <img src="img/banner3.png" alt="Terceiro Slide" class="d-none d-sm-block w-100">
+                    </a>
+                    <a href="">
+                        <img src="img/banner3-mobile.png" alt="Terceiro Slide" class="d-block d-sm-none w-100">
+                    </a>
+                </div>
+
+    
+                <a href="#slideshow" class="carousel-control-prev" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Anterior</span>
+                </a>
+                <a href="#slideshow" class="carousel-control-next" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Próximo</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Seção de Serviços -->
+    <div class="container-fluid bg-servicos">
+        <div id="servicos" class="mt-2 py-5">
+            <section class="container">
+                <header class="col-md-12">
+                    <h2 class="text-center mb-4" style="color: var(--cor-secundaria); font-weight: 900;" >O Que Fazemos?
+                        <span class="underline" style="border-top: 2px solid var(--cor-primaria);"></span>
+                    </h2>
+                </header>
+                <div class="col-10 col-md-9 mx-auto">
+                    <p class="text-center mb-0 font-weight-bold" style="font-size: 18px;">
+                        Em um mundo onde a saúde mental é fundamental, nossa aplicação é projetada 
+                        para enfrentar os desafios contemporâneos, como o impacto das redes sociais. 
+                        Vamos além do reconhecimento, oferecendo soluções personalizadas, desde 
+                        exercícios de meditação guiada até estratégias para lidar com o estresse digital. 
+                        Acompanhamos o estado emocional diário, promovemos a integração de hábitos 
+                        saudáveis e, por meio de uma interface intuitiva, proporcionamos não apenas 
+                        monitoramento, mas também recursos educativos, acesso a profissionais de saúde 
+                        mental e uma comunidade de apoio, visando fortalecer a resiliência emocional e 
+                        alcançar um bem-estar duradouro.
+                    </p>
+                </div>
+            </section>
+        </div>
+    </div>
+
+
+    <!-- Seção de Parceiros -->
+    <div id="parceiros" class="container-fluid py-4 bg-parceiros">
+        <div class="py-2">
+            <div class="container">
+                <header class="col-md-12">
+                    <h2 class="text-center" style="color: var(--cor-secundaria);">Conheça Nossos Parceiros
+                        <span class="underline" style="border-top: 2px solid var(--cor-terciaria);"></span>
+                    </h2>
+                </header>
+                <div class="row py-4">
+                    
+                    <div class="col-sm-6 col-md-3 padding-parceiros">
+                        <div class="card mx-auto">
+                            <div class="card-body">
+                                <a href="">
+                                    <img src="img/parceiro2.png" class="img-fluid mx-auto d-flex" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="col-sm-6 col-md-3 padding-parceiros">
+                        <div class="card mx-auto">
+                            <div class="card-body">
+                                <a href="">
+                                    <img src="img/parceiro3.png" class="img-fluid mx-auto d-flex" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="col-sm-6 col-md-3 padding-parceiros">
+                        <div class="card mx-auto">
+                            <div class="card-body">
+                                <a href="">
+                                    <img src="img/parceiro1.png" class="img-fluid mx-auto d-flex" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-sm-6 col-md-3 padding-parceiros">
+                        <div class="card mx-auto">
+                            <div class="card-body">
+                                <a href="">
+                                    <img src="img/parceiro4.png" class="img-fluid mx-auto d-flex" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+    
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Seção paralax -->
+    <div id="cursos" class="container-fluid bg-paralax">
+        <div class="py-4">
+            <div class="container">
+                <header class="col-md-12">
+                    <h2 class="text-center text-light mb-4" >Sobre Nós
+                        <span class="underline" style="border-top: 2px solid var(--cor-secundaria);"></span>
+                    </h2>
+                    <p class="text-center font-weight-bold mb-5" style="color: var(--cor-terciaria); font-size: 18px;">
+                        Na jornada para promover o bem-estar emocional, a Maslow se destaca como 
+                        uma aplicação comprometida em redefinir a abordagem moderna à saúde mental. 
+                        Guiados pela missão de não apenas reconhecer, mas ativamente abordar os desafios 
+                        contemporâneos, somos uma equipe dedicada a oferecer soluções práticas e 
+                        personalizadas. A Maslow vai além do monitoramento diário, incentivando a 
+                        integração de hábitos saudáveis e proporcionando um ambiente virtual compassivo, 
+                        repleto de recursos educativos, acesso a profissionais de saúde mental e uma 
+                        comunidade de apoio. Nossa visão é criar um espaço seguro e eficaz, capacitando 
+                        os usuários a fortalecerem sua resiliência emocional e a atingirem um estado 
+                        duradouro de bem-estar na era digital.
+                    </p>
+                </header>
+                <div class="row py-2">
+                    <div class="col-sm-6 col-md-3 col-lg-3">
+                        <div class="fatos">
+                           <div class="icon">
+                                <i class="fa fa-clock"></i>
+                           </div>
+                           <div class="fatos-contador">
+                               <h3>+ <span class="contar">3500</span></h3>
+                               <h4>Horas de conteúdos</h4>
+                           </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-md-3 col-lg-3">
+                        <div class="fatos">
+                           <div class="icon">
+                                <i class="fa fa-book"></i>
+                           </div>
+                           <div class="fatos-contador">
+                               <h3>+ <span class="contar">1000</span></h3>
+                               <h4>Dicas</h4>
+                           </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-md-3 col-lg-3">
+                        <div class="fatos">
+                           <div class="icon">
+                                <i class="fa fa-users"></i>
+                           </div>
+                           <div class="fatos-contador">
+                               <h3>+ <span class="contar">9000</span></h3>
+                               <h4>Produtores Cadastrados</h4>
+                           </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-md-3 col-lg-3">
+                        <div class="fatos">
+                           <div class="icon">
+                                <i class="fa fa-star"></i>
+                           </div>
+                           <div class="fatos-contador">
+                               <h3><span class="contar">4.9</span></h3>
+                               <h4>Média de Avaliação do Aplicativo</h4>
+                           </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Seção de Cursos -->
+    <div class="container-fluid">
+        <div class="my-2 py-4">
+            <section class="container">
+                <header class="col-md-12">
+                    <h2 class="text-center" >Assine os Nossos Planos
+                        <span class="underline" style="border-top: 2px solid var(--cor-secundaria); font-weight: 900;"></span>
+                    </h2>
+                </header>
+
+                <div class="row py-4">
+                    <div class="col-sm-6 col-md-3 col-xs-12">
+                        <div class="tabela-preco sombra">
+                            <div class="preco-detalhe">
+                                <h2>Plano Básico</h2>
+                                <strike>R$ 129,99</strike>
+                                <span>R$ 9,99</span>
+                                <ul>
+                                    <li>Acesso ao nosso fórum</li>
+                                    <li>Acesso a revista online</li>                                    
+                                    <li>Uma consultoria por mês</li>
+                                    <li>Acesso total durante 12 meses</li>
+                                </ul>
+                            </div>
+                            <div class="preco-botao">
+                                <a href="#" class="btn btn-preco">Assine Agora</a>
+                            </div>
+                            <small>* Garantia de satisfação de 30 dias</small>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-md-3 col-xs-12">
+                        <div class="tabela-preco sombra">
+                            <div class="preco-detalhe">
+                                <h2>Plano Plus</h2>
+                                <strike>R$ 229,99</strike>
+                                <span>R$ 19,99</span>
+                                <ul>
+                                    <li>Acesso a vídeos exclusivos</li>
+                                    <li>Acesso a podcasts exclusivos</li>                                    
+                                    <li>Até 2 consultorias por mês</li>
+                                    <li>Acesso total durante 12 meses</li>
+                                </ul>
+                            </div>
+                            <div class="preco-botao">
+                                <a href="#" class="btn btn-preco">Assine Agora</a>
+                            </div>
+                            <small>* Garantia de satisfação de 30 dias</small>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-md-3 col-xs-12">
+                        <div class="tabela-preco sombra">
+                            <div class="preco-detalhe">
+                                <h2>Plano Especial</h2>
+                                <strike>R$ 329,99</strike>
+                                <span>R$ 29,99</span>
+                                <ul>
+                                    <li>Participação em Webinar/Lives</li>
+                                    <li>Acesso aos canais de comunicação</li>                                    
+                                    <li>Até 4 consultorias por mês</li>
+                                    <li>Acesso total durante 12 meses</li>
+                                </ul>
+                            </div>
+                            <div class="preco-botao">
+                                <a href="#" class="btn btn-preco">Assine Agora</a>
+                            </div>
+                            <small>* Garantia de satisfação de 30 dias</small>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-md-3 col-xs-12">
+                        <div class="tabela-preco sombra">
+                            <div class="preco-detalhe">
+                                <h2>Plano Premium</h2>
+                                <strike>R$ 429,99</strike>
+                                <span>R$ 39,99</span>
+                                <ul>
+                                    <li>Participação em eventos exclusivos</li>
+                                    <li>Acesso a todos os conteúdos</li>                                    
+                                    <li>Consultoria exclusiva ilimitada</li>
+                                    <li>Acesso total durante 12 meses</li>
+                                </ul>
+                            </div>
+                            <div class="preco-botao">
+                                <a href="#" class="btn btn-preco">Assine Agora</a>
+                            </div>
+                            <small>* Garantia de satisfação de 30 dias</small>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+
+    <!-- Seção footer -->
+    <footer class="container-fluid bg-rodape1">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5 class="text-light align-middle">
+                        <i class="fa fa-info-circle fa-2x mr-2 text-light"></i>
+                        Conheça mais sobre os nossos Super Parceiros
+                    </h5>
+                    <ul class="text-light">
+                        <li><a href="#" class="text-light"> <i class="fa fa-angle-right"></i>FIAP</a></li>
+                        <li><a href="#" class="text-light"><i class="fa fa-angle-right"></i>Unicef</a></li>
+                        <li><a href="#" class="text-light"><i class="fa fa-angle-right"></i>Hapvida</a></li>
+                        <li><a href="#" class="text-light"><i class="fa fa-angle-right"></i>ONU</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h6 class="text-light">Sobre a Maslow <span class="underline-footer"></span></h6>
+                            <ul class="text-light">
+                                <li><a class="text-light">Quem somos</a></li>
+                                <li><a class="text-light">Parceiros</a></li>
+                                <li><a class="text-light">Portifólio</a></li>
+                                <li><a class="text-light">Contato</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                            <h6 class="text-light">Maslow <span class="underline-footer"></span></h6>
+                            <ul class="text-light">
+                                <li><a class="text-light">O que é?</a></li>
+                                <li><a class="text-light">Nossa missão</a></li>
+                                <li><a class="text-light">Institucional</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card text-light mb-3 bg-card-rodape">
+                        <div class="card-body">
+                            <h4 class="card-title"> <i class="fab fa-whatsapp mr-2 fa-2x icon-banner-rodape"></i> Ficou com alguma dúvida?</h4>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <div class="container-fluid bg-rodape2">
+        <div class="containery py-2">
+            <img src="img/logo.png" alt="" class="mx-auto d-block logo-rodape">
+            <div class="text-center pt-1">
+                <a href="" class="icone-social"><i class="fab fa-facebook-square fa-lg"></i></a>
+                <a href="" class="icone-social"><i class="fab fa-youtube fa-lg"></i></a>
+                <a href="" class="icone-social"><i class="fab fa-instagram fa-lg"></i></a>
+                <a href="" class="icone-social"><i class="fab fa-twitter fa-lg"></i></a>
+                <a href="" class="icone-social"><i class="fab fa-linkedin fa-lg"></i></a>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="js/jquery-min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
