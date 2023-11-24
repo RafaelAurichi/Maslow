@@ -8,11 +8,17 @@
  
 # Maslow
 
-Nós somos uma plataforma que conecta pequenos produtores agrícolas com consumidores finais e/ou revendedores, com o objetivo de fomentar o comércio de pequenos negócios.
+A saúde mental desempenha um papel crucial no bem-estar geral das pessoas, e sua importância tem sido cada vez mais reconhecida em um mundo marcado por desafios únicos, como o impacto das redes sociais e o sedentarismo. Diante desse cenário, é fundamental a existência de uma aplicação que não apenas reconheça, mas também aborde ativamente esses desafios, capacitando os usuários no gerenciamento e promoção eficaz de seu bem-estar emocional.
 
-A plataforma conta com uma IA para auxiliar os produtores na administração das colheitas com base no clima e com informações do solo trazidas por sensores IoT. E, na parte do usuário final nossa IA capta o perfil e lhe dá sugestões personalizadas.
+O Maslow é projetado como uma ferramenta integral para enfrentar os desequilíbrios emocionais causados por fatores modernos, como a constante exposição às redes sociais. Ao invés de apenas reconhecer os problemas, nosso aplicativo busca oferecer soluções práticas e personalizadas, alinhadas com as necessidades individuais de cada usuário.
 
-Teremos um sistema simples de gameficação onde o agricultor ganhará colecionáveis e por consequência será melhor rankeado conforme seguir as oritentações da aplicação. 
+Nossa aplicação não só acompanha o estado emocional diário dos usuários, mas também fornece recursos ativos para contrabalançar os impactos negativos. Desde exercícios de meditação guiada até estratégias específicas para lidar com o estresse digital visando ser um guia compassivo no caminho do equilíbrio emocional.
+
+Além disso, reconhecendo o papel essencial da atividade física na saúde mental, o aplicativo incentiva a integração de hábitos saudáveis na rotina diária, promovendo assim uma abordagem completa para o bem-estar.
+
+Por meio de uma interface intuitiva e acessível, o Maslow se torna uma aliada diária, oferecendo não apenas rastreamento e monitoramento, mas também recursos educativos, acesso a profissionais de saúde mental e a criação de uma comunidade de apoio.
+
+Em um mundo cada vez mais digital buscamos não apenas prevenir e gerenciar desequilíbrios emocionais, mas também fornecer um espaço seguro e eficaz para os usuários fortalecerem sua resiliência emocional e alcançarem um estado de bem-estar duradouro. 
  
 # Estrutura de pastas
 ## /app-react-native
