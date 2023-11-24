@@ -3,7 +3,6 @@
  - [Introdução](#maslow)
  - [Mobile](#app-react-native)
  - [Página Institucional](#pag-institucional)
- - [Aplicação](#maslow-app)
  - [API](#maslow-api)
  - [Integrantes](#integrantes)
  
@@ -113,7 +112,7 @@ O retorno deve ser:
 }
 ````
  
-## /maslow-app
+## /maslow-api
 (o que contém na pasta)
  
 ### Iniciar aplicação
@@ -181,8 +180,6 @@ O retorno deve ser:
     "endereco": " "
 }
 ````
-
-## /maslow-api
  
 # Integrantes
  
