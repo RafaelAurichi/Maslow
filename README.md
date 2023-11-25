@@ -1,9 +1,9 @@
 # Sumário
  
  - [Introdução](#maslow)
- - [Mobile](#app-react-native)
+ - [Mobile](https://github.com/Almeida154/maslow-app)
  - [Página Institucional](#pag-institucional)
- - [API](#maslow-api)
+ - [API](https://github.com/Almeida154/maslow-api)
  - [Integrantes](#integrantes)
  
 # Maslow
@@ -45,75 +45,6 @@ Contém os arquivos necessários para abrir o projeto em HTML e Bootstrap da pá
 ### Iniciar aplicação
 - Abra o arquivo `index.html` no seu navegador
 - Contém os conteiners Docker com o backend do projeto em PHP e MySQL, alimentando uma API REST.
- 
-### Iniciar aplicação
-- Abra a pasta em um Ambiente de Desenvolvimento (ex: Visual Studio Code)
- 
-- ### Iniciando pelo servidor Apache:
-  - Certifique-se de que tenha o [Xampp](https://www.apachefriends.org/pt_br/download.html) instalado.
-  - Abra o Xampp Control Painel e inicie o serviço Apache e MySQL
-  - Transfira a pasta `/pag-institucional` para a pasta `C:\xampp\htdocs\`
- 
-  - #### Criando o banco
-    - Acesse esse [link](http://localhost/phpmyadmin/) em seu navegador
-    - Acesse a opção "Importar" no menu e suba o arquivo `db.sql` que está na pasta `/src`
-   
-  - #### Acessando o sistema
-    - Acesse esse [link](http://localhost/pag-institucional/src/) em seu navegador 
-    - Se cadastre e após isso efetue o login ou efetue o login com as credenciais: email: `admin@fiap` e senha: `admin` 
- 
-- ### Iniciando pelo Docker:
-[Link](https://hub.docker.com/r/rafaelaurichi/php-apache) para o repositório da imagem no `Docker Hub` 
- 
-  - Certifique-se de que tenha o [Docker](https://www.docker.com/products/docker-desktop/) instalado.
-  - Abra o Docker Desktop e inicie o serviço
-  - Abra o terminal e siga os passos a seguir:
-   
-  ````
-  cd (caminho até a pasta do projeto)
-  ````
-  ````
-  docker-compose up
-  ````
- 
-  - #### Criando o banco
-    - Acesse esse [link](http://localhost:8080) em seu navegador
-    - Efetue o login no PHPMyAdmin
-    - Acesse a opção "Importar" no menu e suba o arquivo `db.sql` que está na pasta `/src`
- 
-  - #### Acessando o sistema
-    - Acesse esse [link](http://localhost) em seu navegador
-    - Se cadastre e após isso efetue o login ou efetue o login com as credenciais: email: `admin@fiap` e senha: `admin` 
- 
-### API de autenticação
-Para receber um retorno de autenticação de algum usuário é necessário que esteja com o projeto da pasta `/backend` rodando e realizar uma requisição do método `POST` para essa [URL](http://localhost/backend/src/api/usuario-existente.php) (caso esteja usando Xampp) ou para esta [URL](http://localhost/api/usuario-existente.php) (caso esteja usando Docker) e passar as seguintes informações:
- 
-````json
-{
-    "email": "(email do usuário)",
-    "senha": "(senha do usuário)"
-}
-````
- 
-O retorno deve ser:
- 
-````json
-{
-    "id": " ",
-    "nome": " ",
-    "email": " ",
-    "senha": " ",
-    "telefone": " ",
-    "sexo": " ",
-    "data_nasc": " ",
-    "cidade": " ",
-    "estado": " ",
-    "endereco": " "
-}
-````
- 
-## /maslow-api
-(o que contém na pasta)
  
 ### Iniciar aplicação
 - Abra a pasta em um Ambiente de Desenvolvimento (ex: Visual Studio Code)
